@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testing-regression">
+    <parameter name="Browser" value="Chrome"/>
+    <parameter name="URL" value="http://automationpractice.com/index.php"/>
+    <test name="com.regression.testng.tests">
+        <classes>
+            <class name="com.regression.testng.tests.LoginSegmentTest"/>
+        </classes>
+    </test>
+</suite>
